@@ -16,7 +16,7 @@ const nextConfig = {
     ignoreDuringBuilds: true
   },
   output: 'export',
-  serverExternalPackages: ['langium', '@mermaid-js/parser'],
+  serverExternalPackages: ['langium'],
   webpack(config, { isServer }) {
     if (!isServer) {
       config.resolve.fallback.fs = false;

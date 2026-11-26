@@ -18,11 +18,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
   background-color: white;
+  --pele-font: Inter, sans-serif;
+  --pele-bg: #EDFAFF;
+  --pele-border: #47BCEE;
+  --pele-fg: #242929;
+  --pele-line: #BFC6C7;
+  --pele-accent: #875AE2;
+  --pele-surface: #F7F9FA;
+  --pele-surface-alt: #F4EFFC;
 }
 
 html.dark,
 html.dark body {
   background-color: #121825; /* dark-background color */
+  --pele-font: Inter, sans-serif;
+  --pele-bg: #1E293B;
+  --pele-border: #38BDF8;
+  --pele-fg: #F8FAFC;
+  --pele-line: #94A3B8;
+  --pele-accent: #A87EFC;
+  --pele-surface: #121825;
+  --pele-surface-alt: #2E2459;
 }
 
 .dark .finance-chart .recharts-tooltip-cursor {
